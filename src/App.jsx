@@ -7,8 +7,8 @@ import Skill from './Skill'
 import Project from './Project'
 import Hero from './Hero'
 import './App.css'
-import CertificateView from './CertificateView'
-import ProjectDetail from './ProjectDetail'
+// import CertificateView from './CertificateView'
+// import ProjectDetail from './ProjectDetail'
 import NavBar from './NavBar'
 import About from './About'
 
@@ -26,8 +26,8 @@ function App() {
         <Route path="/Skill" element={<Skill />} />
         <Route path="/About" element={<About />} />
         <Route path="/Project" element={<Project />} />
-        <Route path="/certificates/:id" element={<CertificateView />} />
-        <Route path="/projects/:id " element={<ProjectDetail />} />
+        {/* <Route path="/certificates/:id" element={<CertificateView />} /> */}
+        {/* <Route path="/projects/:id " element={<ProjectDetail />} /> */}
       </Routes>
     </Router>
   )
